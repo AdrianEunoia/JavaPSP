@@ -29,7 +29,7 @@ public class Arbitro {
     // Metodo que controla la jugada de cada jugador
     public synchronized void jugada(int jugadorPasado, int numero){
         if(numero == numeroAdivinar){
-            System.out.println("Gana el jugador "+jugadorPasado+" Ha adivinida el numero"+numeroAdivinar);
+            System.out.println("Gana el jugador "+jugadorPasado+" ha adivinado el numero "+numeroAdivinar);
             terminado = true;
         }else{
             if(jugadorPasado == (numeroJugadores-1)){
