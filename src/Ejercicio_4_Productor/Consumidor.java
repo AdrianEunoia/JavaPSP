@@ -8,7 +8,7 @@ public class Consumidor extends Thread {
         nuevaCola = colaPasada;
     }
     public void run() {
-        for (int i=0;i<5;i++)
+        for (int i=0;i<8;i++)
             try {
                 nuevaCola.get();
             }catch (InterruptedException ie){
